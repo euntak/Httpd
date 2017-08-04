@@ -2,7 +2,7 @@ package euntak.httpd;
 
 public class App {
     public static void main(String[] args) {
-        HttpServer httpServer = new HttpServer();
+        HttpServer httpServer = new HttpServer(8080);
 
         try {
             httpServer.run();
